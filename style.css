@@ -127,6 +127,22 @@ span#name_student {
     text-transform: capitalize;
 }
 
+span.right {
+    float: right;
+    max-width: 50%;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+span.left {
+    float: left;
+    max-width: 50%;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 768px) {
     .card{
 		width: 320px;
