@@ -148,12 +148,23 @@ span.left {
 		width: 320px;
 		height: 420px;
 	}
+	h2 {
+	    font-size: 1.2em;
+	    margin-top: 0px;
+	    margin-bottom: 5px;
+	}
+	p {
+	    font-size: 0.85em;
+	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
     .card{
 		width: 297px;
 		height: 390px;
+	}
+	p {
+	    font-size: 0.75em;
 	}
 }
 
